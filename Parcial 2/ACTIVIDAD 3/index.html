@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas en JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TAREA DE JAVASCRIPT</h1>
+    </header>
+    <nav>
+        <button onclick="showSection('invertir-cadena')">Invertir Cadena</button>
+        <button onclick="showSection('numero-primo')">Número Primo</button>
+        <button onclick="showSection('eliminar-duplicados')">Eliminar Duplicados</button>
+        <button onclick="showSection('factorial')">Factorial</button>
+        <button onclick="showSection('recuento-vocales')">Recuento de Vocales</button>
+        <button onclick="showSection('suma-numeros')">Suma los Números</button>
+        <button onclick="showSection('maximo-arreglo')">Encontrar el Máximo</button>
+    </nav>
+
+    <section id="invertir-cadena">
+        <h2>Invertir Cadena</h2>
+        <input type="text" id="cadena" placeholder="Ingrese una cadena">
+        <button onclick="invertirCadena()">Invertir</button>
+        <p id="resultado-invertir"></p>
+    </section>
+
+    <section id="numero-primo">
+        <h2>Número Primo</h2>
+        <input type="number" id="numero" placeholder="Ingrese un número">
+        <button onclick="esPrimo()">Verificar</button>
+        <p id="resultado-primo"></p>
+    </section>
+
+    <section id="eliminar-duplicados">
+        <h2>Eliminar Duplicados</h2>
+        <input type="text" id="arreglo-duplicados" placeholder="Ingrese un arreglo separado por comas">
+        <button onclick="eliminarDuplicados()">Eliminar</button>
+        <p id="resultado-duplicados"></p>
+    </section>
+
+    <section id="factorial">
+        <h2>Factorial</h2>
+        <input type="number" id="numero-factorial" placeholder="Ingrese un número">
+        <button onclick="calcularFactorial()">Calcular</button>
+        <p id="resultado-factorial"></p>
+    </section>
+
+    <section id="recuento-vocales">
+        <h2>Recuento de Vocales</h2>
+        <input type="text" id="cadena-vocales" placeholder="Ingrese una cadena">
+        <button onclick="contarVocales()">Contar</button>
+        <p id="resultado-vocales"></p>
+    </section>
+
+    <section id="suma-numeros">
+        <h2>Suma los Números</h2>
+        <input type="text" id="arreglo-suma" placeholder="Ingrese un arreglo separado por comas">
+        <button onclick="sumarNumeros()">Sumar</button>
+        <p id="resultado-suma"></p>
+    </section>
+
+    <section id="maximo-arreglo">
+        <h2>Encontrar el Máximo</h2>
+        <input type="text" id="arreglo-maximo" placeholder="Ingrese un arreglo separado por comas">
+        <button onclick="encontrarMaximo()">Encontrar</button>
+        <p id="resultado-maximo"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
