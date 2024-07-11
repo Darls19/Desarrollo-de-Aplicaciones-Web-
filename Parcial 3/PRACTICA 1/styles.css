@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow-y: auto;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.exercise-link {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    color: #007bff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.exercise-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.search-container {
+    margin: 50px 0;
+}
+
+.search-input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.header, .footer {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+.card-title {
+    color: #343a40;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
