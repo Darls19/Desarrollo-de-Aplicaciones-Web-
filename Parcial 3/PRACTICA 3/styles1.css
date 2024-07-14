@@ -13,7 +13,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* Search form styles */
   
   #mercado-libre-form {
     margin-bottom: 20px;
@@ -27,7 +26,6 @@ body {
     border: 1px solid #ccc;
   }
   
-  /* Results styles */
   
   #mercado-libre-results {
     display: flex;
